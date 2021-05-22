@@ -24,7 +24,7 @@ def location_contains_image_color_matters_not(num1, num2, num3, num4, image_loca
 
 
 def re_bet_option_is_available() -> bool:
-    return location_contains_image_color_matters(1300, 850, 600, 250, r"images\re_bet.png")
+    return location_contains_image_color_matters(1300, 850, 600, 250, r"images\identifiers\re_bet.png")
 
 
 def click_re_bet_option() -> None:
@@ -38,11 +38,11 @@ def click_collect_pop_up() -> None:
 
 
 def split_is_available() -> bool:
-    return location_contains_image_color_matters(1300, 850, 600, 250, r"images\split.png")
+    return location_contains_image_color_matters(1300, 850, 600, 250, r"images\identifiers\split.png")
 
 
 def it_is_player_turn() -> bool:
-    return location_contains_image_color_matters(1300, 850, 600, 250, r"images\hit.png")
+    return location_contains_image_color_matters(1300, 850, 600, 250, r"images\identifiers\hit.png")
 
 
 def read_dealer_number() -> str:

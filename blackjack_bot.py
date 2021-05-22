@@ -4,6 +4,7 @@ from blackjack_calculator import *
 from blackjack_particular_game import *
 
 if __name__ == "__main__":
+
     while True:
         if re_bet_option_is_available():
             click_re_bet_option()
