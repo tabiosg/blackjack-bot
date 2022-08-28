@@ -8,7 +8,11 @@ Blackjack for the user.
 When blackjack_bot.py is run, the game will automatically 
 play for the player.
 Currently, the bot has been adapted to work 
-for Casino Stars Season 2 on Facebook.
+for Casino Stars Season 2 on Facebook. 
+
+## Warning
+
+CasinoStar2 services have been closed as of July 29, 2022, so this project can no longer be used.
 
 ## Instructions
 
